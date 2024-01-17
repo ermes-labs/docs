@@ -6,6 +6,8 @@ export default defineConfig({
   title: "Ermes",
   description: "Edge-to-Cloud Resource Management for Enhanced Session-based Applications",
 
+  base: '/docs/',
+
   head: [
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['link', { rel: 'icon', href: '/favicon.ico', sizes: '48x48' }],
