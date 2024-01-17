@@ -23,16 +23,15 @@ function createLinks(tm: CoreTeam): CoreTeam {
   if (tm.youtube)
     tm.links.push({ icon: 'youtube', link: `https://www.youtube.com/@${tm.youtube}` })
 
-  tm.links.push({ icon: 'twitter', link: `https://twitter.com/${tm.twitter}` })
-
-    ; (tm as any).teamMember = true
+  tm.links.push({ icon: 'twitter', link: `https://twitter.com/${tm.twitter}` });
+  (tm as any).teamMember = true
 
   return tm
 }
 
 const plainTeamMembers = [
   {
-    avatar: '/team-avatars/paol-imi.svg',
+    avatar: '/docs/team-avatars/paol-imi.svg',
     name: 'Paolo longo',
     github: 'paol-imi',
     youtube: '/',

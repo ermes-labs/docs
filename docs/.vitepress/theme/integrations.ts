@@ -25,35 +25,35 @@ function createLinks(i: Integration): Integration {
 
 const plainIntegrations = [
   {
-    avatar: '/integration-logos/redis.svg',
+    avatar: '/docs/integration-logos/redis.svg',
     name: 'Redis',
     github: 'redis/redis',
     twitter: 'redis',
     title: 'Redis is an in-memory data structure store, used as a database, cache, and message broker.',
   },
   {
-    avatar: '/integration-logos/mysql.svg',
+    avatar: '/docs/integration-logos/mysql.svg',
     name: 'MySQL',
     github: 'mysql/mysql-server',
     twitter: 'mysql',
     title: 'MySQL is an open-source relational database management system.',
   },
   {
-    avatar: '/integration-logos/postgresql.svg',
+    avatar: '/docs/integration-logos/postgresql.svg',
     name: 'PostgreSQL',
     github: 'postgresql/postgresql',
     twitter: 'postgresql',
     title: 'PostgreSQL is a powerful, open source object-relational database system.',
   },
   {
-    avatar: '/integration-logos/sqlite.svg',
+    avatar: '/docs/integration-logos/sqlite.svg',
     name: 'SQLite',
     github: 'sqlite/sqlite',
     twitter: 'sqliteproject',
     title: 'SQLite is a small, fast, self-contained, high-reliability, full-featured, SQL database engine.',
   },
   {
-    avatar: '/integration-logos/mongodb.svg',
+    avatar: '/docs/integration-logos/mongodb.svg',
     name: 'MongoDB',
     github: 'mongodb/mongo',
     twitter: 'mongodb',
