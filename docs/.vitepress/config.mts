@@ -29,8 +29,6 @@ export default defineConfig({
     // ['meta', { name: 'twitter:url', content: ogUrl }],
     // ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '180x180' }],
   ],
-  srcExclude: ['README.md', 'CONTRIBUTING.md'],
-  lastUpdated: true,
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
