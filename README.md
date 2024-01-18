@@ -15,4 +15,4 @@ Bible of the [`Ermes`](https://ermes-labs.github.io/docs) framework
 
 # Introduction 📖
 
-Ermes *(Edge-to-Cloud Resource Management for Enhanced Session-based Applications)*
+Ermes *(Edge-to-Cloud Resource Management for Enhanced Session-based applications)*
