@@ -10,8 +10,8 @@ export default defineConfig({
 
   head: [
     ['meta', { name: 'theme-color', content: '#ffffff' }],
-    ['link', { rel: 'icon', href: '/favicon.ico', sizes: '48x48' }],
-    // ['link', { rel: 'icon', href: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }],
+    ['link', { rel: 'icon', href: '/docs/favicon.ico' }],
+    //['link', { rel: 'icon', href: '/favicon.svg', sizes: 'any', type: 'image/svg+xml' }],
     // ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#ffffff' }],
     ['meta', { name: 'author', content: 'Paolo Longo' }],
     ['meta', {
@@ -58,6 +58,6 @@ export default defineConfig({
       copyright: 'Copyright © 2024-PRESENT Ermes-Labs',
     },
 
-    logo: '/hermes.png',
-  }
+    logo: '/icon.png',
+  },
 })
